@@ -1,0 +1,10 @@
+14:55:53 **** Incremental Build of configuration Debug for project 001_helloworld ****
+make -j16 all 
+arm-none-eabi-size   001_helloworld.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3764	    108	   1588	   5460	   1554	001_helloworld.elf
+Finished building: default.size.stdout
+ 
+
+14:55:53 Build Finished. 0 errors, 0 warnings. (took 314ms)
+

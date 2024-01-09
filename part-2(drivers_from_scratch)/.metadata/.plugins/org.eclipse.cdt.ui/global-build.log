@@ -1,0 +1,701 @@
+16:44:38 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/007_two_interrupts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/007_two_interrupts.d" -MT"Src/007_two_interrupts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/007_two_interrupts.o"
+arm-none-eabi-gcc -o "stm32f407_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ST-IDE\Workspace\part-2(drivers_from_scratch)\stm32f407_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f407_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f407_drivers.elf
+ 
+arm-none-eabi-size   stm32f407_drivers.elf 
+arm-none-eabi-objdump -h -S  stm32f407_drivers.elf  > "stm32f407_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2500	      8	   1568	   4076	    fec	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: stm32f407_drivers.list
+ 
+16:44:41 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2500	      8	   1568	   4076	    fec	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+16:44:56 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2500	      8	   1568	   4076	    fec	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+17:15:35 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/007_two_interrupts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/007_two_interrupts.d" -MT"Src/007_two_interrupts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/007_two_interrupts.o"
+arm-none-eabi-gcc -o "stm32f407_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ST-IDE\Workspace\part-2(drivers_from_scratch)\stm32f407_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f407_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f407_drivers.elf
+ 
+arm-none-eabi-size   stm32f407_drivers.elf 
+arm-none-eabi-objdump -h -S  stm32f407_drivers.elf  > "stm32f407_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2588	      8	   1568	   4164	   1044	stm32f407_drivers.elf
+Finished building: default.size.stdout
+Finished building: stm32f407_drivers.list
+ 
+ 
+17:16:37 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/007_two_interrupts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/007_two_interrupts.d" -MT"Src/007_two_interrupts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/007_two_interrupts.o"
+arm-none-eabi-gcc -o "stm32f407_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ST-IDE\Workspace\part-2(drivers_from_scratch)\stm32f407_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f407_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f407_drivers.elf
+ 
+arm-none-eabi-size   stm32f407_drivers.elf 
+arm-none-eabi-objdump -h -S  stm32f407_drivers.elf  > "stm32f407_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2588	      8	   1568	   4164	   1044	stm32f407_drivers.elf
+Finished building: default.size.stdout
+Finished building: stm32f407_drivers.list
+ 
+ 
+17:16:55 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/007_two_interrupts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/007_two_interrupts.d" -MT"Src/007_two_interrupts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/007_two_interrupts.o"
+arm-none-eabi-gcc -o "stm32f407_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ST-IDE\Workspace\part-2(drivers_from_scratch)\stm32f407_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f407_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f407_drivers.elf
+ 
+arm-none-eabi-size   stm32f407_drivers.elf 
+arm-none-eabi-objdump -h -S  stm32f407_drivers.elf  > "stm32f407_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2588	      8	   1568	   4164	   1044	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: stm32f407_drivers.list
+ 
+17:19:01 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/007_two_interrupts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/007_two_interrupts.d" -MT"Src/007_two_interrupts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/007_two_interrupts.o"
+arm-none-eabi-gcc -o "stm32f407_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ST-IDE\Workspace\part-2(drivers_from_scratch)\stm32f407_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f407_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f407_drivers.elf
+ 
+arm-none-eabi-size   stm32f407_drivers.elf 
+arm-none-eabi-objdump -h -S  stm32f407_drivers.elf  > "stm32f407_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2588	      8	   1568	   4164	   1044	stm32f407_drivers.elf
+Finished building: default.size.stdout
+Finished building: stm32f407_drivers.list
+ 
+ 
+17:38:36 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2588	      8	   1568	   4164	   1044	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+17:39:25 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2588	      8	   1568	   4164	   1044	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+17:40:15 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2588	      8	   1568	   4164	   1044	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+17:42:23 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2588	      8	   1568	   4164	   1044	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+17:46:11 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2588	      8	   1568	   4164	   1044	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+17:47:00 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/007_two_interrupts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/007_two_interrupts.d" -MT"Src/007_two_interrupts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/007_two_interrupts.o"
+arm-none-eabi-gcc -o "stm32f407_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ST-IDE\Workspace\part-2(drivers_from_scratch)\stm32f407_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f407_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f407_drivers.elf
+ 
+arm-none-eabi-size   stm32f407_drivers.elf 
+arm-none-eabi-objdump -h -S  stm32f407_drivers.elf  > "stm32f407_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2576	      8	   1568	   4152	   1038	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: stm32f407_drivers.list
+ 
+17:47:45 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2576	      8	   1568	   4152	   1038	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+17:50:34 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2576	      8	   1568	   4152	   1038	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+17:51:43 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2576	      8	   1568	   4152	   1038	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+17:52:14 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/007_two_interrupts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/007_two_interrupts.d" -MT"Src/007_two_interrupts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/007_two_interrupts.o"
+arm-none-eabi-gcc -o "stm32f407_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ST-IDE\Workspace\part-2(drivers_from_scratch)\stm32f407_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f407_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f407_drivers.elf
+ 
+arm-none-eabi-size   stm32f407_drivers.elf 
+arm-none-eabi-objdump -h -S  stm32f407_drivers.elf  > "stm32f407_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2576	      8	   1568	   4152	   1038	stm32f407_drivers.elf
+Finished building: default.size.stdout
+Finished building: stm32f407_drivers.list
+ 
+ 
+17:53:40 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/007_two_interrupts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/007_two_interrupts.d" -MT"Src/007_two_interrupts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/007_two_interrupts.o"
+arm-none-eabi-gcc -o "stm32f407_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ST-IDE\Workspace\part-2(drivers_from_scratch)\stm32f407_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f407_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f407_drivers.elf
+ 
+arm-none-eabi-size   stm32f407_drivers.elf 
+arm-none-eabi-objdump -h -S  stm32f407_drivers.elf  > "stm32f407_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2584	      8	   1568	   4160	   1040	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: stm32f407_drivers.list
+ 
+17:55:09 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/007_two_interrupts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/007_two_interrupts.d" -MT"Src/007_two_interrupts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/007_two_interrupts.o"
+arm-none-eabi-gcc -o "stm32f407_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ST-IDE\Workspace\part-2(drivers_from_scratch)\stm32f407_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f407_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f407_drivers.elf
+ 
+arm-none-eabi-size   stm32f407_drivers.elf 
+arm-none-eabi-objdump -h -S  stm32f407_drivers.elf  > "stm32f407_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2592	      8	   1568	   4168	   1048	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: stm32f407_drivers.list
+ 
+17:55:51 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2592	      8	   1568	   4168	   1048	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+17:58:30 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/007_two_interrupts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/007_two_interrupts.d" -MT"Src/007_two_interrupts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/007_two_interrupts.o"
+arm-none-eabi-gcc -o "stm32f407_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ST-IDE\Workspace\part-2(drivers_from_scratch)\stm32f407_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f407_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f407_drivers.elf
+ 
+arm-none-eabi-size   stm32f407_drivers.elf 
+arm-none-eabi-objdump -h -S  stm32f407_drivers.elf  > "stm32f407_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2588	      8	   1568	   4164	   1044	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: stm32f407_drivers.list
+ 
+17:59:16 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2588	      8	   1568	   4164	   1044	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+10:00:08 **** Clean-only build of configuration Debug for project stm32f407_drivers ****
+make -j16 clean 
+rm -rf ./drivers/Src/stm32f407xx_gpio_driver.d ./drivers/Src/stm32f407xx_gpio_driver.o ./drivers/Src/stm32f407xx_gpio_driver.su ./drivers/Src/stm32f407xx_spi_driver.d ./drivers/Src/stm32f407xx_spi_driver.o ./drivers/Src/stm32f407xx_spi_driver.su
+rm -rf ./Startup/startup_stm32f407vgtx.d ./Startup/startup_stm32f407vgtx.o
+rm -rf ./Src/007_two_interrupts.d ./Src/007_two_interrupts.o ./Src/007_two_interrupts.su ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf default.size.stdout stm32f407_drivers.elf stm32f407_drivers.list stm32f407_drivers.map
+ 
+10:00:08 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_gpio_driver.d" -MT"drivers/Src/stm32f407xx_gpio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_gpio_driver.o"
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_spi_driver.d" -MT"drivers/Src/stm32f407xx_spi_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_spi_driver.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/001_ledToggle.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/001_ledToggle.d" -MT"Src/001_ledToggle.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/001_ledToggle.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "stm32f407_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ST-IDE\Workspace\part-2(drivers_from_scratch)\stm32f407_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f407_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f407_drivers.elf
+ 
+arm-none-eabi-size   stm32f407_drivers.elf 
+arm-none-eabi-objdump -h -S  stm32f407_drivers.elf  > "stm32f407_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2100	      8	   1568	   3676	    e5c	stm32f407_drivers.elf
+Finished building: default.size.stdout
+Finished building: stm32f407_drivers.list
+ 
+ 
+10:00:25 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2100	      8	   1568	   3676	    e5c	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+10:20:08 **** Clean-only build of configuration Debug for project stm32f407_drivers ****
+make -j16 clean 
+rm -rf ./drivers/Src/stm32f407xx_gpio_driver.d ./drivers/Src/stm32f407xx_gpio_driver.o ./drivers/Src/stm32f407xx_gpio_driver.su ./drivers/Src/stm32f407xx_spi_driver.d ./drivers/Src/stm32f407xx_spi_driver.o ./drivers/Src/stm32f407xx_spi_driver.su
+rm -rf ./Startup/startup_stm32f407vgtx.d ./Startup/startup_stm32f407vgtx.o
+rm -rf ./Src/001_ledToggle.d ./Src/001_ledToggle.o ./Src/001_ledToggle.su ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf default.size.stdout stm32f407_drivers.elf stm32f407_drivers.list stm32f407_drivers.map
+ 
+10:20:08 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_gpio_driver.d" -MT"drivers/Src/stm32f407xx_gpio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_gpio_driver.o"
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_spi_driver.d" -MT"drivers/Src/stm32f407xx_spi_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_spi_driver.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/007_two_interrupts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/007_two_interrupts.d" -MT"Src/007_two_interrupts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/007_two_interrupts.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+../Src/007_two_interrupts.c: In function 'EXTI9_5_IRQHandler':
+../Src/007_two_interrupts.c:72:9: warning: unused variable 'a' [-Wunused-variable]
+   72 |     int a=10;
+      |         ^
+../Src/007_two_interrupts.c: In function 'EXTI1_IRQHandler':
+../Src/007_two_interrupts.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+   79 |     int b=10;
+      |         ^
+arm-none-eabi-gcc -o "stm32f407_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ST-IDE\Workspace\part-2(drivers_from_scratch)\stm32f407_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f407_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f407_drivers.elf
+ 
+arm-none-eabi-size   stm32f407_drivers.elf 
+arm-none-eabi-objdump -h -S  stm32f407_drivers.elf  > "stm32f407_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2608	      8	   1568	   4184	   1058	stm32f407_drivers.elf
+Finished building: default.size.stdout
+Finished building: stm32f407_drivers.list
+ 
+ 
+10:29:39 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/007_two_interrupts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/007_two_interrupts.d" -MT"Src/007_two_interrupts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/007_two_interrupts.o"
+../Src/007_two_interrupts.c: In function 'EXTI9_5_IRQHandler':
+../Src/007_two_interrupts.c:72:9: warning: unused variable 'a' [-Wunused-variable]
+   72 |     int a=10;
+      |         ^
+../Src/007_two_interrupts.c: In function 'EXTI1_IRQHandler':
+../Src/007_two_interrupts.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+   79 |     int b=10;
+      |         ^
+arm-none-eabi-gcc -o "stm32f407_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ST-IDE\Workspace\part-2(drivers_from_scratch)\stm32f407_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f407_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f407_drivers.elf
+ 
+arm-none-eabi-size   stm32f407_drivers.elf 
+arm-none-eabi-objdump -h -S  stm32f407_drivers.elf  > "stm32f407_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2608	      8	   1568	   4184	   1058	stm32f407_drivers.elf
+Finished building: default.size.stdout
+Finished building: stm32f407_drivers.list
+ 
+ 
+11:07:13 **** Clean-only build of configuration Debug for project stm32f407_drivers ****
+make -j16 clean 
+rm -rf ./drivers/Src/stm32f407xx_gpio_driver.d ./drivers/Src/stm32f407xx_gpio_driver.o ./drivers/Src/stm32f407xx_gpio_driver.su ./drivers/Src/stm32f407xx_spi_driver.d ./drivers/Src/stm32f407xx_spi_driver.o ./drivers/Src/stm32f407xx_spi_driver.su
+rm -rf ./Startup/startup_stm32f407vgtx.d ./Startup/startup_stm32f407vgtx.o
+rm -rf ./Src/007_two_interrupts.d ./Src/007_two_interrupts.o ./Src/007_two_interrupts.su ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf default.size.stdout stm32f407_drivers.elf stm32f407_drivers.list stm32f407_drivers.map
+ 
+11:07:13 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_gpio_driver.d" -MT"drivers/Src/stm32f407xx_gpio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_gpio_driver.o"
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_spi_driver.d" -MT"drivers/Src/stm32f407xx_spi_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_spi_driver.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/001_ledToggle.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/001_ledToggle.d" -MT"Src/001_ledToggle.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/001_ledToggle.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "stm32f407_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ST-IDE\Workspace\part-2(drivers_from_scratch)\stm32f407_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f407_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f407_drivers.elf
+ 
+arm-none-eabi-size   stm32f407_drivers.elf 
+arm-none-eabi-objdump -h -S  stm32f407_drivers.elf  > "stm32f407_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2100	      8	   1568	   3676	    e5c	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: stm32f407_drivers.list
+ 
+11:22:33 **** Clean-only build of configuration Debug for project stm32f407_drivers ****
+make -j16 clean 
+rm -rf ./drivers/Src/stm32f407xx_gpio_driver.d ./drivers/Src/stm32f407xx_gpio_driver.o ./drivers/Src/stm32f407xx_gpio_driver.su ./drivers/Src/stm32f407xx_spi_driver.d ./drivers/Src/stm32f407xx_spi_driver.o ./drivers/Src/stm32f407xx_spi_driver.su
+rm -rf ./Startup/startup_stm32f407vgtx.d ./Startup/startup_stm32f407vgtx.o
+rm -rf ./Src/001_ledToggle.d ./Src/001_ledToggle.o ./Src/001_ledToggle.su ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf default.size.stdout stm32f407_drivers.elf stm32f407_drivers.list stm32f407_drivers.map
+ 
+11:22:34 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_gpio_driver.d" -MT"drivers/Src/stm32f407xx_gpio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_gpio_driver.o"
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_spi_driver.d" -MT"drivers/Src/stm32f407xx_spi_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_spi_driver.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/007_two_interrupts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/007_two_interrupts.d" -MT"Src/007_two_interrupts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/007_two_interrupts.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+../Src/007_two_interrupts.c: In function 'EXTI9_5_IRQHandler':
+../Src/007_two_interrupts.c:72:9: warning: unused variable 'a' [-Wunused-variable]
+   72 |     int a=10;
+      |         ^
+../Src/007_two_interrupts.c: In function 'EXTI1_IRQHandler':
+../Src/007_two_interrupts.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+   79 |     int b=10;
+      |         ^
+arm-none-eabi-gcc -o "stm32f407_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ST-IDE\Workspace\part-2(drivers_from_scratch)\stm32f407_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f407_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f407_drivers.elf
+ 
+arm-none-eabi-size   stm32f407_drivers.elf 
+arm-none-eabi-objdump -h -S  stm32f407_drivers.elf  > "stm32f407_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2608	      8	   1568	   4184	   1058	stm32f407_drivers.elf
+Finished building: default.size.stdout
+Finished building: stm32f407_drivers.list
+ 
+ 
+11:27:55 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2608	      8	   1568	   4184	   1058	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+11:28:58 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2608	      8	   1568	   4184	   1058	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+11:32:44 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2608	      8	   1568	   4184	   1058	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+11:37:50 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2608	      8	   1568	   4184	   1058	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+11:38:46 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2608	      8	   1568	   4184	   1058	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+11:50:13 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-size   stm32f407_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2608	      8	   1568	   4184	   1058	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+14:38:47 **** Clean-only build of configuration Debug for project stm32f407_drivers ****
+make -j16 clean 
+rm -rf ./drivers/Src/stm32f407xx_gpio_driver.d ./drivers/Src/stm32f407xx_gpio_driver.o ./drivers/Src/stm32f407xx_gpio_driver.su ./drivers/Src/stm32f407xx_spi_driver.d ./drivers/Src/stm32f407xx_spi_driver.o ./drivers/Src/stm32f407xx_spi_driver.su
+rm -rf ./Startup/startup_stm32f407vgtx.d ./Startup/startup_stm32f407vgtx.o
+rm -rf ./Src/007_two_interrupts.d ./Src/007_two_interrupts.o ./Src/007_two_interrupts.su ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf default.size.stdout stm32f407_drivers.elf stm32f407_drivers.list stm32f407_drivers.map
+ 
+14:38:48 **** Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_gpio_driver.d" -MT"drivers/Src/stm32f407xx_gpio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_gpio_driver.o"
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_spi_driver.d" -MT"drivers/Src/stm32f407xx_spi_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_spi_driver.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/007_two_interrupts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/007_two_interrupts.d" -MT"Src/007_two_interrupts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/007_two_interrupts.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+In file included from D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc/stm32f407xx.h:484,
+                 from ../Src/007_two_interrupts.c:9:
+D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc/stm32f407xx_spi_driver.h:41:2: error: expected ':', ',', ';', '}' or '__attribute__' before 'uint8_t'
+   41 |  uint8_t RxState                      /* !< To store the Rx state > */
+      |  ^~~~~~~
+In file included from ../drivers/Src/stm32f407xx_spi_driver.c:8:
+D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc/stm32f407xx_spi_driver.h:41:2: error: expected ':', ',', ';', '}' or '__attribute__' before 'uint8_t'
+   41 |  uint8_t RxState                      /* !< To store the Rx state > */
+      |  ^~~~~~~
+../drivers/Src/stm32f407xx_spi_driver.c: In function 'SPI_ReceiveData':
+../drivers/Src/stm32f407xx_spi_driver.c:190:30: error: 'pSPIx' undeclared (first use in this function)
+  190 |      while(SPI_GetFlagStatus(pSPIx, SPI_RXNE_FLAG) == FLAG_RESET);
+      |                              ^~~~~
+../drivers/Src/stm32f407xx_spi_driver.c:190:30: note: each undeclared identifier is reported only once for each function it appears in
+../drivers/Src/stm32f407xx_spi_driver.c: In function 'SPI_SendDataIT':
+../drivers/Src/stm32f407xx_spi_driver.c:231:31: error: 'SPI_Handle_t' has no member named 'TxState'
+  231 |     uint8_t state = pSPIHandle->TxState;
+      |                               ^~
+../drivers/Src/stm32f407xx_spi_driver.c:241:16: error: 'SPI_Handle_t' has no member named 'TxState'
+  241 |      pSPIHandle->TxState = SPI_BUSY_IN_TX;
+      |                ^~
+../drivers/Src/stm32f407xx_spi_driver.c: In function 'SPI_ReceiveDataIT':
+../drivers/Src/stm32f407xx_spi_driver.c:268:31: error: 'SPI_Handle_t' has no member named 'RxState'
+  268 |     uint8_t state = pSPIHandle->RxState;
+      |                               ^~
+../drivers/Src/stm32f407xx_spi_driver.c:278:16: error: 'SPI_Handle_t' has no member named 'RxState'
+  278 |      pSPIHandle->RxState = SPI_BUSY_IN_RX;
+      |                ^~
+../drivers/Src/stm32f407xx_spi_driver.c: In function 'SPI_IRQHandling':
+../drivers/Src/stm32f407xx_spi_driver.c:420:16: warning: variable 'temp2' set but not used [-Wunused-but-set-variable]
+  420 |  uint8_t temp1,temp2;
+      |                ^~~~~
+../drivers/Src/stm32f407xx_spi_driver.c:420:10: warning: variable 'temp1' set but not used [-Wunused-but-set-variable]
+  420 |  uint8_t temp1,temp2;
+      |          ^~~~~
+../Src/007_two_interrupts.c: In function 'EXTI9_5_IRQHandler':
+../Src/007_two_interrupts.c:72:9: warning: unused variable 'a' [-Wunused-variable]
+   72 |     int a=10;
+      |         ^
+../Src/007_two_interrupts.c: In function 'EXTI1_IRQHandler':
+../Src/007_two_interrupts.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+   79 |     int b=10;
+      |         ^
+In file included from D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc/stm32f407xx.h:484,
+                 from ../drivers/Src/stm32f407xx_gpio_driver.c:9:
+D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc/stm32f407xx_spi_driver.h:41:2: error: expected ':', ',', ';', '}' or '__attribute__' before 'uint8_t'
+   41 |  uint8_t RxState                      /* !< To store the Rx state > */
+      |  ^~~~~~~
+make: *** [drivers/Src/subdir.mk:22: drivers/Src/stm32f407xx_spi_driver.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Src/subdir.mk:25: Src/007_two_interrupts.o] Error 1
+make: *** [drivers/Src/subdir.mk:22: drivers/Src/stm32f407xx_gpio_driver.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:42:57 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_gpio_driver.d" -MT"drivers/Src/stm32f407xx_gpio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_gpio_driver.o"
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_spi_driver.d" -MT"drivers/Src/stm32f407xx_spi_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_spi_driver.o"
+arm-none-eabi-gcc "../Src/007_two_interrupts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/007_two_interrupts.d" -MT"Src/007_two_interrupts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/007_two_interrupts.o"
+In file included from D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc/stm32f407xx.h:484,
+                 from ../drivers/Src/stm32f407xx_gpio_driver.c:9:
+D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc/stm32f407xx_spi_driver.h:41:2: error: expected ':', ',', ';', '}' or '__attribute__' before 'uint8_t'
+   41 |  uint8_t RxState                      /* !< To store the Rx state > */
+      |  ^~~~~~~
+In file included from D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc/stm32f407xx.h:484,
+                 from ../Src/007_two_interrupts.c:9:
+D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc/stm32f407xx_spi_driver.h:41:2: error: expected ':', ',', ';', '}' or '__attribute__' before 'uint8_t'
+   41 |  uint8_t RxState                      /* !< To store the Rx state > */
+      |  ^~~~~~~
+make: *** [drivers/Src/subdir.mk:22: drivers/Src/stm32f407xx_gpio_driver.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Src/007_two_interrupts.c: In function 'EXTI9_5_IRQHandler':
+../Src/007_two_interrupts.c:72:9: warning: unused variable 'a' [-Wunused-variable]
+   72 |     int a=10;
+      |         ^
+../Src/007_two_interrupts.c: In function 'EXTI1_IRQHandler':
+../Src/007_two_interrupts.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+   79 |     int b=10;
+      |         ^
+make: *** [Src/subdir.mk:25: Src/007_two_interrupts.o] Error 1
+In file included from ../drivers/Src/stm32f407xx_spi_driver.c:8:
+D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc/stm32f407xx_spi_driver.h:41:2: error: expected ':', ',', ';', '}' or '__attribute__' before 'uint8_t'
+   41 |  uint8_t RxState                      /* !< To store the Rx state > */
+      |  ^~~~~~~
+../drivers/Src/stm32f407xx_spi_driver.c: In function 'SPI_ReceiveData':
+../drivers/Src/stm32f407xx_spi_driver.c:190:30: error: 'pSPIx' undeclared (first use in this function)
+  190 |      while(SPI_GetFlagStatus(pSPIx, SPI_RXNE_FLAG) == FLAG_RESET);
+      |                              ^~~~~
+../drivers/Src/stm32f407xx_spi_driver.c:190:30: note: each undeclared identifier is reported only once for each function it appears in
+../drivers/Src/stm32f407xx_spi_driver.c: In function 'SPI_SendDataIT':
+../drivers/Src/stm32f407xx_spi_driver.c:231:31: error: 'SPI_Handle_t' has no member named 'TxState'
+  231 |     uint8_t state = pSPIHandle->TxState;
+      |                               ^~
+../drivers/Src/stm32f407xx_spi_driver.c:241:16: error: 'SPI_Handle_t' has no member named 'TxState'
+  241 |      pSPIHandle->TxState = SPI_BUSY_IN_TX;
+      |                ^~
+../drivers/Src/stm32f407xx_spi_driver.c: In function 'SPI_ReceiveDataIT':
+../drivers/Src/stm32f407xx_spi_driver.c:268:31: error: 'SPI_Handle_t' has no member named 'RxState'
+  268 |     uint8_t state = pSPIHandle->RxState;
+      |                               ^~
+../drivers/Src/stm32f407xx_spi_driver.c:278:16: error: 'SPI_Handle_t' has no member named 'RxState'
+  278 |      pSPIHandle->RxState = SPI_BUSY_IN_RX;
+      |                ^~
+../drivers/Src/stm32f407xx_spi_driver.c: In function 'SPI_IRQHandling':
+../drivers/Src/stm32f407xx_spi_driver.c:429:3: warning: implicit declaration of function 'spi_txe_interrupt_handle' [-Wimplicit-function-declaration]
+  429 |   spi_txe_interrupt_handle();
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+../drivers/Src/stm32f407xx_spi_driver.c:439:3: warning: implicit declaration of function 'spi_rxne_interrupt_handle' [-Wimplicit-function-declaration]
+  439 |   spi_rxne_interrupt_handle();
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+../drivers/Src/stm32f407xx_spi_driver.c:449:3: warning: implicit declaration of function 'spi_ovr_err_interrupt_handle' [-Wimplicit-function-declaration]
+  449 |   spi_ovr_err_interrupt_handle();
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [drivers/Src/subdir.mk:22: drivers/Src/stm32f407xx_spi_driver.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:43:34 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_gpio_driver.d" -MT"drivers/Src/stm32f407xx_gpio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_gpio_driver.o"
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_spi_driver.d" -MT"drivers/Src/stm32f407xx_spi_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_spi_driver.o"
+arm-none-eabi-gcc "../Src/007_two_interrupts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/007_two_interrupts.d" -MT"Src/007_two_interrupts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/007_two_interrupts.o"
+../Src/007_two_interrupts.c: In function 'EXTI9_5_IRQHandler':
+../Src/007_two_interrupts.c:72:9: warning: unused variable 'a' [-Wunused-variable]
+   72 |     int a=10;
+      |         ^
+../Src/007_two_interrupts.c: In function 'EXTI1_IRQHandler':
+../Src/007_two_interrupts.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+   79 |     int b=10;
+      |         ^
+../drivers/Src/stm32f407xx_spi_driver.c: In function 'SPI_ReceiveData':
+../drivers/Src/stm32f407xx_spi_driver.c:190:30: error: 'pSPIx' undeclared (first use in this function)
+  190 |      while(SPI_GetFlagStatus(pSPIx, SPI_RXNE_FLAG) == FLAG_RESET);
+      |                              ^~~~~
+../drivers/Src/stm32f407xx_spi_driver.c:190:30: note: each undeclared identifier is reported only once for each function it appears in
+../drivers/Src/stm32f407xx_spi_driver.c: In function 'SPI_IRQHandling':
+../drivers/Src/stm32f407xx_spi_driver.c:429:3: warning: implicit declaration of function 'spi_txe_interrupt_handle' [-Wimplicit-function-declaration]
+  429 |   spi_txe_interrupt_handle();
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+../drivers/Src/stm32f407xx_spi_driver.c:439:3: warning: implicit declaration of function 'spi_rxne_interrupt_handle' [-Wimplicit-function-declaration]
+  439 |   spi_rxne_interrupt_handle();
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+../drivers/Src/stm32f407xx_spi_driver.c:449:3: warning: implicit declaration of function 'spi_ovr_err_interrupt_handle' [-Wimplicit-function-declaration]
+  449 |   spi_ovr_err_interrupt_handle();
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [drivers/Src/subdir.mk:22: drivers/Src/stm32f407xx_spi_driver.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:44:04 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_spi_driver.d" -MT"drivers/Src/stm32f407xx_spi_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_spi_driver.o"
+../drivers/Src/stm32f407xx_spi_driver.c: In function 'SPI_ReceiveData':
+../drivers/Src/stm32f407xx_spi_driver.c:193:11: error: 'pSPIx' undeclared (first use in this function)
+  193 |      if( (pSPIx->CR1 & (1 << SPI_CR1_DFF)))
+      |           ^~~~~
+../drivers/Src/stm32f407xx_spi_driver.c:193:11: note: each undeclared identifier is reported only once for each function it appears in
+../drivers/Src/stm32f407xx_spi_driver.c: In function 'SPI_IRQHandling':
+../drivers/Src/stm32f407xx_spi_driver.c:429:3: warning: implicit declaration of function 'spi_txe_interrupt_handle' [-Wimplicit-function-declaration]
+  429 |   spi_txe_interrupt_handle();
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+../drivers/Src/stm32f407xx_spi_driver.c:439:3: warning: implicit declaration of function 'spi_rxne_interrupt_handle' [-Wimplicit-function-declaration]
+  439 |   spi_rxne_interrupt_handle();
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+../drivers/Src/stm32f407xx_spi_driver.c:449:3: warning: implicit declaration of function 'spi_ovr_err_interrupt_handle' [-Wimplicit-function-declaration]
+  449 |   spi_ovr_err_interrupt_handle();
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [drivers/Src/subdir.mk:22: drivers/Src/stm32f407xx_spi_driver.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:44:38 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_spi_driver.d" -MT"drivers/Src/stm32f407xx_spi_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_spi_driver.o"
+../drivers/Src/stm32f407xx_spi_driver.c: In function 'SPI_IRQHandling':
+../drivers/Src/stm32f407xx_spi_driver.c:429:3: warning: implicit declaration of function 'spi_txe_interrupt_handle' [-Wimplicit-function-declaration]
+  429 |   spi_txe_interrupt_handle();
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+../drivers/Src/stm32f407xx_spi_driver.c:439:3: warning: implicit declaration of function 'spi_rxne_interrupt_handle' [-Wimplicit-function-declaration]
+  439 |   spi_rxne_interrupt_handle();
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+../drivers/Src/stm32f407xx_spi_driver.c:449:3: warning: implicit declaration of function 'spi_ovr_err_interrupt_handle' [-Wimplicit-function-declaration]
+  449 |   spi_ovr_err_interrupt_handle();
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "stm32f407_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ST-IDE\Workspace\part-2(drivers_from_scratch)\stm32f407_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f407_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f407_drivers.elf
+ 
+arm-none-eabi-size   stm32f407_drivers.elf 
+arm-none-eabi-objdump -h -S  stm32f407_drivers.elf  > "stm32f407_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2608	      8	   1568	   4184	   1058	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: stm32f407_drivers.list
+ 
+16:03:34 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_gpio_driver.d" -MT"drivers/Src/stm32f407xx_gpio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_gpio_driver.o"
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_spi_driver.d" -MT"drivers/Src/stm32f407xx_spi_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_spi_driver.o"
+arm-none-eabi-gcc "../Src/007_two_interrupts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/007_two_interrupts.d" -MT"Src/007_two_interrupts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/007_two_interrupts.o"
+../drivers/Src/stm32f407xx_spi_driver.c: In function 'spi_rxne_interrupt_handle':
+../drivers/Src/stm32f407xx_spi_driver.c:498:17: error: 'SPI_Handle_t' has no member named 'pSpix'
+  498 |     if( (pHandle->pSpix->CR1 & (1 << SPI_CR1_DFF)))
+      |                 ^~
+make: *** [drivers/Src/subdir.mk:22: drivers/Src/stm32f407xx_spi_driver.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Src/007_two_interrupts.c: In function 'EXTI9_5_IRQHandler':
+../Src/007_two_interrupts.c:72:9: warning: unused variable 'a' [-Wunused-variable]
+   72 |     int a=10;
+      |         ^
+../Src/007_two_interrupts.c: In function 'EXTI1_IRQHandler':
+../Src/007_two_interrupts.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+   79 |     int b=10;
+      |         ^
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+16:04:11 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_spi_driver.d" -MT"drivers/Src/stm32f407xx_spi_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_spi_driver.o"
+arm-none-eabi-gcc -o "stm32f407_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ST-IDE\Workspace\part-2(drivers_from_scratch)\stm32f407_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f407_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f407_drivers.elf
+ 
+arm-none-eabi-size   stm32f407_drivers.elf 
+arm-none-eabi-objdump -h -S  stm32f407_drivers.elf  > "stm32f407_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2608	      8	   1568	   4184	   1058	stm32f407_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: stm32f407_drivers.list
+ 
+17:19:11 **** Clean-only build of configuration Debug for project stm32f407_drivers ****
+make -j16 clean 
+rm -rf ./drivers/Src/stm32f407xx_gpio_driver.d ./drivers/Src/stm32f407xx_gpio_driver.o ./drivers/Src/stm32f407xx_gpio_driver.su ./drivers/Src/stm32f407xx_spi_driver.d ./drivers/Src/stm32f407xx_spi_driver.o ./drivers/Src/stm32f407xx_spi_driver.su
+rm -rf ./Startup/startup_stm32f407vgtx.d ./Startup/startup_stm32f407vgtx.o
+rm -rf ./Src/007_two_interrupts.d ./Src/007_two_interrupts.o ./Src/007_two_interrupts.su ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf default.size.stdout stm32f407_drivers.elf stm32f407_drivers.list stm32f407_drivers.map
+ 
+17:19:11 **** Incremental Build of configuration Debug for project stm32f407_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_gpio_driver.d" -MT"drivers/Src/stm32f407xx_gpio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_gpio_driver.o"
+arm-none-eabi-gcc "../drivers/Src/stm32f407xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"drivers/Src/stm32f407xx_spi_driver.d" -MT"drivers/Src/stm32f407xx_spi_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drivers/Src/stm32f407xx_spi_driver.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/009spi_message_rcv_it_instructor_code.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/009spi_message_rcv_it_instructor_code.d" -MT"Src/009spi_message_rcv_it_instructor_code.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/009spi_message_rcv_it_instructor_code.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+../Src/009spi_message_rcv_it_instructor_code.c: In function 'Slave_GPIO_InterruptPinInit':
+../Src/009spi_message_rcv_it_instructor_code.c:116:2: warning: implicit declaration of function 'GPIO_IRQPriorityConfig'; did you mean 'GPIO_IRQ_Priority_Config'? [-Wimplicit-function-declaration]
+  116 |  GPIO_IRQPriorityConfig(IRQ_NO_EXTI9_5,NVIC_IRQ_PRI15);
+      |  ^~~~~~~~~~~~~~~~~~~~~~
+      |  GPIO_IRQ_Priority_Config
+../Src/009spi_message_rcv_it_instructor_code.c:117:2: warning: implicit declaration of function 'GPIO_IRQInterruptConfig'; did you mean 'GPIO_IRQ_Interrupt_Config'? [-Wimplicit-function-declaration]
+  117 |  GPIO_IRQInterruptConfig(IRQ_NO_EXTI9_5,ENABLE);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~
+      |  GPIO_IRQ_Interrupt_Config
+../Src/009spi_message_rcv_it_instructor_code.c: In function 'main':
+../Src/009spi_message_rcv_it_instructor_code.c:143:2: warning: implicit declaration of function 'SPI_IRQInterruptConfig'; did you mean 'SPI_IRQ_Interrupt_Config'? [-Wimplicit-function-declaration]
+  143 |  SPI_IRQInterruptConfig(IRQ_NO_SPI2,ENABLE);
+      |  ^~~~~~~~~~~~~~~~~~~~~~
+      |  SPI_IRQ_Interrupt_Config
+../Src/009spi_message_rcv_it_instructor_code.c:161:42: warning: passing argument 2 of 'SPI_ReceiveDataIT' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  161 |    while ( SPI_ReceiveDataIT(&SPI2handle,&ReadByte,1) == SPI_BUSY_IN_RX );
+      |                                          ^~~~~~~~~
+In file included from D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc/stm32f407xx.h:485,
+                 from ../Src/009spi_message_rcv_it_instructor_code.c:25:
+D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/drivers/Inc/stm32f407xx_spi_driver.h:146:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile char *'
+  146 | uint8_t SPI_ReceiveDataIT(SPI_Handle_t *pSPIHandle, uint8_t *pRxBuffer,uint32_t Len);
+      |                                                     ~~~~~~~~~^~~~~~~~~
+arm-none-eabi-gcc -o "stm32f407_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ST-IDE\Workspace\part-2(drivers_from_scratch)\stm32f407_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f407_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+c:\st\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\bin\ld.exe: ./Src/009spi_message_rcv_it_instructor_code.o: in function `Slave_GPIO_InterruptPinInit':
+D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/Debug/../Src/009spi_message_rcv_it_instructor_code.c:116: undefined reference to `GPIO_IRQPriorityConfig'
+c:\st\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\bin\ld.exe: D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/Debug/../Src/009spi_message_rcv_it_instructor_code.c:117: undefined reference to `GPIO_IRQInterruptConfig'
+c:\st\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\bin\ld.exe: ./Src/009spi_message_rcv_it_instructor_code.o: in function `main':
+D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/Debug/../Src/009spi_message_rcv_it_instructor_code.c:143: undefined reference to `SPI_IRQInterruptConfig'
+c:\st\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\bin\ld.exe: D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/Debug/../Src/009spi_message_rcv_it_instructor_code.c:151: undefined reference to `GPIO_IRQInterruptConfig'
+c:\st\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\bin\ld.exe: D:/ST-IDE/Workspace/part-2(drivers_from_scratch)/stm32f407_drivers/Debug/../Src/009spi_message_rcv_it_instructor_code.c:175: undefined reference to `GPIO_IRQInterruptConfig'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: stm32f407_drivers.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
